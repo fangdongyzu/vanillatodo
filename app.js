@@ -1,5 +1,3 @@
-import Task from "./Task.js";
-
 const form = document.getElementById("taskForm");
 const todoList = document.getElementById("todoList");
 const taskName = document.getElementById("taskName");
