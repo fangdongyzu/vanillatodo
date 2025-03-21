@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Todo App</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body class="container">
+    <h1 class="appTitle">Vanilla Javascript Todo App </h1>
+    <div class="taskWrapper">
+        <div class="taskInput">
+            <form id="taskForm">
+                <input id="taskName">
+                <button class="p-3 bg-red-100" type="submit" id="addTaskBtn">Add</button>
+            </form>
+            <div id="todoContainer">
+                <ul id="todoList">
+
+                </ul>
+                <div class="clearAllContainer">
+                    <button id="clearAll">Clear All</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

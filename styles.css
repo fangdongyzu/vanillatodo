@@ -1,0 +1,102 @@
+.appTitle{
+  text-align: center;
+}
+.taskWrapper{
+  display: flex;
+  justify-content: center;
+
+}
+#taskForm{
+  display: flex;
+  justify-content: center;
+
+}
+
+li{
+ list-style-type: none;
+background-color: rgb(247, 250, 252);
+padding: 5px;
+width: 400px;
+}
+
+#clearAll{
+background-color: aqua;
+
+}
+#taskName{
+padding: 10px;
+border-color: rgb(243, 245, 247);
+border-width: 0.5px;
+border-radius: 5px;
+width: 200px;
+margin-right: 20px;
+padding: 10px;
+box-shadow: none;
+outline: none;
+}
+button{
+  border: none;
+}
+#addTaskBtn{
+  padding: 10px;
+  width: 5rem;
+  border-radius: 5px;
+  background-color: rgb(237, 243, 249);
+  transition: all 0.3s ease;
+}
+#addTaskBtn:hover{
+  background-color: rgb(228, 242, 242);
+  cursor: pointer;
+  
+}
+.liContainer {
+  display: flex;
+  justify-content: space-between; /* Places items at both ends */
+  align-items: center; /* Aligns items vertically in the center */
+  gap: 5px;
+  background-color: rgb(242, 239, 239); 
+  padding: 10px;
+  
+}
+.clearAllContainer{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+#clearAll{
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding:10px;
+  transition: all 0.3 ease;
+
+}
+#clearAll:hover{
+  background-color: rgb(238, 174, 149);
+  cursor: pointer;
+}
+
+.deleteButton{
+  background-color: rgb(233, 194, 152);
+  padding: 10px;
+  border-radius: 7px;
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
+.doneButton{
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: rgb(203, 244, 187);
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+.doneButton:hover,.deleteButton:hover{
+  cursor:pointer;
+  opacity: 1.0;
+}
+
+.clearAllShow{
+  opacity: 1;
+}
